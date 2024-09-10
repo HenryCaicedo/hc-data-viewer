@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Card variant='elevation' sx={{ margin: 5, height: 1, padding: 5 }}>
+    <Card variant='elevation' sx={{ margin: { xs: 0, sm: 5 }, height: 1, padding: { xs: 0, sm: 5 } }}>
       <CardContent>
         <Typography variant='h3' component='h1' fontWeight={500} gutterBottom>HC Data Viewer</Typography>
         <DataTabs />
